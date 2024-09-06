@@ -1,0 +1,18 @@
+body{
+font-family: "Open Sans", sans-serif;
+font-style: normal;
+}
+
+/* Nav Style */
+
+nav{
+display: flex;
+}
+
+nav > #owner_name{
+font-size: 45px;
+font-weight:800;
+}
+nav > #owner_name > span{
+color: #FD6E0A;
+}
