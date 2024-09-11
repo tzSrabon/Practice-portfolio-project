@@ -42,3 +42,29 @@ nav > ul > li > a > .btn{
     cursor: pointer;
 }
 
+/* Banner Style */
+
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0px 50px 0px 120px;
+
+}
+#text-content{
+    max-width: 530px;
+}
+#media-content{
+    max-width: 310px;
+}
+#text-content > h3{
+    font-size: 45px;
+}
+header{
+    background: url(/images/developer.png) , url(/images/header_bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    background-size: 5% 100%, 30% 50% ;
+}
+
