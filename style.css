@@ -68,3 +68,28 @@ header{
     background-size: 5% 100%, 30% 50% ;
 }
 
+.banner-content > #text-content > #d-btn{
+    padding: 20px 25px;
+    border-radius: 10px;
+    background-color: #FD6E0A;
+    border: none;
+}
+.banner-content > #text-content > #d-btn > a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.banner-content > #text-content > #c-btn{
+    padding: 19px 25px;
+    border-radius: 10px;
+    background-color:white;
+    border:1px solid #FD6E0A;
+    margin-left: 15px;
+}
+.banner-content > #text-content > #c-btn > a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:#FD6E0A;  
+}
