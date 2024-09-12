@@ -1,6 +1,8 @@
 body{
 font-family: "Open Sans", sans-serif;
 font-style: normal;
+/* max-width: 1115px;
+max-height: 641px; */
 }
 
 /* Nav Style */
@@ -58,7 +60,12 @@ nav > ul > li > a > .btn{
     max-width: 310px;
 }
 #text-content > h3{
-    font-size: 45px;
+    font-size: 40px;
+    font-weight: 600;
+}
+#text-content > h1{
+    font-weight: bold;
+    font-size: 50px;
 }
 header{
     background: url(/images/developer.png) , url(/images/header_bg.png);
@@ -66,6 +73,7 @@ header{
     background-repeat: no-repeat;
     margin-left: 20px;
     background-size: 5% 100%, 30% 50% ;
+    /* max-width:2500px; */
 }
 
 .banner-content > #text-content > #d-btn{
@@ -92,4 +100,18 @@ header{
     font-size: 20px;
     font-weight: bold;
     color:#FD6E0A;  
+}
+
+/* main body style */
+
+.sec-one{
+    max-width: 1000px;
+    max-height: 1100px;
+}
+.sec-one > .about-part{
+    max-width: 900px;
+    max-height: 400px;
+    margin: 30px 50px;
+    background-color: #FFF8F3;
+
 }
