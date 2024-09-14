@@ -1,3 +1,7 @@
+
+
+
+
 body{
 font-family: "Open Sans", sans-serif;
 font-style: normal;
@@ -72,7 +76,7 @@ header{
     background-position: top left, bottom right;
     background-repeat: no-repeat;
     margin-left: 20px;
-    background-size: 5% 100%, 30% 50% ;
+    background-size: 5% 100%, 35% 50% ;
     /* max-width:2500px; */
 }
 
@@ -103,15 +107,3 @@ header{
 }
 
 /* main body style */
-
-.sec-one{
-    max-width: 1000px;
-    max-height: 1100px;
-}
-.sec-one > .about-part{
-    max-width: 900px;
-    max-height: 400px;
-    margin: 30px 50px;
-    background-color: #FFF8F3;
-
-}
